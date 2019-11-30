@@ -1,0 +1,2 @@
+# BridgeDesignPattern
+// some description

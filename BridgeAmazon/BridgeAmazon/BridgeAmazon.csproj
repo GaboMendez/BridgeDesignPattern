@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Amazon.cs" />
+    <Compile Include="EnvioCuba.cs" />
+    <Compile Include="EnvioEspaña.cs" />
+    <Compile Include="IEnvio.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

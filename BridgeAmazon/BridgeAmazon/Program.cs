@@ -10,7 +10,20 @@ namespace BridgeAmazon
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola Mundo");
+
+
+            RepartoAmazon reparto = new RepartoAmazon("12345");
+            Console.WriteLine(reparto.ObtenerEnvio());
+            Console.WriteLine(reparto.EnviarPaquete());
+            Console.WriteLine(reparto.EntregarPaquete());
+            Console.WriteLine("////////////////////////////");
+            Console.WriteLine();
+            reparto.AsignarEnvio(new EnvioEspaña());
+            Console.WriteLine(reparto.ObtenerEnvio());
+            Console.WriteLine(reparto.EnviarPaquete());
+            Console.WriteLine(reparto.EntregarPaquete());
+            Console.WriteLine();
+            Console.WriteLine("////////////////////////////");
             Console.ReadKey();
         }
     }
